@@ -92,8 +92,8 @@ def set_document_font(doc, font_name="Arial", size_pt=12):
     font.color.rgb = RGBColor(0, 0, 0)
 
 def setup_document_layout(section, kop_path, watermark_path, footer_path):
-    section.header_distance = Inches(0.5)
-    section.footer_distance = Inches(0.5)
+    section.header_distance = Inches(0.2)
+    section.footer_distance = Inches(0.2)
 
     header = section.header
     hp_kop = header.paragraphs[0]
